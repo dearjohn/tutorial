@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.7'
+gem 'twitter-bootstrap-rails'
+gem 'bcrypt-ruby', '3.0.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -31,8 +33,6 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-
-  gem 'twitter-bootstrap-rails'
 end
 
 gem 'jquery-rails'
@@ -52,5 +52,3 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-
-
